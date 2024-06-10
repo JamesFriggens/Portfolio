@@ -19,6 +19,7 @@
             <li><a href="#projects">Projects</a></li>
             <li><a href="#stack">Technologies</a></li>
             <li><a href="#studies">Education</a></li>
+            <li><a href="#learning">Learning</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
     </nav>
@@ -26,7 +27,7 @@
     <div class="content">
         <section id="home">
             <div class="presentation">
-                <img class="picture" src="" alt="Profile Picture">
+                <img class="titlepicture" src="./assets/profile picture.png" alt="Profile Picture">
                 <div class="greeting">
                     <h1>James Friggens</h1>
                     <h2>Programmer and IOT Enthusiast</h2>
@@ -73,32 +74,15 @@
                     <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Client/tree/main" target="_blank">Client Code</a></p></li>
                 </div>
                 <div class="card">
-                    <h5>Wireless Computer Remote</h5>
-                    <p>Using a Raspberry Pi Pico and ESP8266, I created a TV remote that allows me to shutdown, restart or lock my computer from WiFi range.
-                        The Raspberry Pi Pico lacks WiFi capabilities, so it sends AT commands to the ESP8266 which then opens a socket connection with the specified IP Address.
-                        I was inspired by this project when I noticed the lack of documentation for connecting the Raspbery Pi Pico to a WiFi capable device to communicate on its behalf.
+                    <h5>Air Quality, Temperature and Humidity Data Logger</h5>
+                    <p>Using the Arduino R4 WiFi, I sent Air Quality, Temperature and Humidity data over a TCP connection to a local server.
+                        The program takes the average of 20 readings over the course of 10 minutes. The server runs python and logs the data into a CSV file.
+                        I then made a program using MatPlotLib, and Pandas to anazlyze and review the data.
                         </p>
-                    <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Hardware" target="_blank">Hardware Code + Wire Diagram</a></p></li>
-                    <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Client/tree/main" target="_blank">Client Code</a></p></li>
+                    <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Hardware" target="_blank">need to fill</a></p></li>
+                    <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Client/tree/main" target="_blank">need to fill</a></p></li>
                 </div>
-                <div class="card">
-                    <h5>Wireless Computer Remote</h5>
-                    <p>Using a Raspberry Pi Pico and ESP8266, I created a TV remote that allows me to shutdown, restart or lock my computer from WiFi range.
-                        The Raspberry Pi Pico lacks WiFi capabilities, so it sends AT commands to the ESP8266 which then opens a socket connection with the specified IP Address.
-                        I was inspired by this project when I noticed the lack of documentation for connecting the Raspbery Pi Pico to a WiFi capable device to communicate on its behalf.
-                        </p>
-                    <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Hardware" target="_blank">Hardware Code + Wire Diagram</a></p></li>
-                    <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Client/tree/main" target="_blank">Client Code</a></p></li>
-                </div>
-                <div class="card">
-                    <h5>Wireless Computer Remote</h5>
-                    <p>Using a Raspberry Pi Pico and ESP8266, I created a TV remote that allows me to shutdown, restart or lock my computer from WiFi range.
-                        The Raspberry Pi Pico lacks WiFi capabilities, so it sends AT commands to the ESP8266 which then opens a socket connection with the specified IP Address.
-                        I was inspired by this project when I noticed the lack of documentation for connecting the Raspbery Pi Pico to a WiFi capable device to communicate on its behalf.
-                        </p>
-                    <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Hardware" target="_blank">Hardware Code + Wire Diagram</a></p></li>
-                    <li><p><a href="https://github.com/JamesFriggens/Computer-Controller-Client/tree/main" target="_blank">Client Code</a></p></li>
-                </div>
+                
             </p>
             
         </section>
@@ -132,6 +116,26 @@
                 <p>Exhausted all available computer science classes</p>
                 <p>AP Computer Science A - 4</p>
                 <p>AP Computer Science Principles - pending</p>
+            </div>
+            
+        </section>
+
+        <section id="learning">
+            <h3>📚 Learning</h3>
+            <div class="card">
+                <p>July 2024 - July 2024</p>
+                <img src="./assets/Kettering.png" alt="Grand Haven High School Logo" class="wide">
+                <h5>Kettering University FRC Autonomous Programming</h5>
+                <p>A 1 week camp that gave me hands on expierence with working on programming autonomous functions for FRC.</p>
+                <p>Different programming objectives were given and encouraged cooperation and and clean code to most effectivly complete each task.</p>
+                <p>Tasks included using sensors such as encoders and gyroscopes, along with creating PID loops for precise control</p>
+                <p>Generated paths using trajectories and comparing it to the robot's odometry.</p>
+            </div>
+            <div class="card">
+                <p>August 2023 - August 2023</p>
+                <img src="./assets/Purdue.png" alt="Grand Haven High School Logo" class="wide">
+                <h5>Purdue Data Science Camp</h5>
+                <p>A 1 week expierence with data science.</p>
             </div>
             
         </section>

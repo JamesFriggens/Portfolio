@@ -15,6 +15,7 @@ body::-webkit-scrollbar {
   }
 
 body {
+    background-color: beige;
     /*margin-top: -20px;*/
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
@@ -58,6 +59,11 @@ img{
 
 .picture{
     height: 30vw;
+}
+
+.titlepicture{
+    width: 50%;
+    height: 50%;
 }
 
 nav{
@@ -122,7 +128,7 @@ a{
 }
 
 a:hover{
-    color: #B49C68;
+    color: #112370;
     text-decoration: underline;
 }
 
@@ -145,12 +151,13 @@ section li a{
     justify-content: center;
     padding: 1vw 2vw 1vw 4vw;
     box-shadow: 10px 10px;
-    background-color: rgb(75, 151, 87);
+    background-color: rgb(72, 181, 206);
+    opacity: 0.75;
     
 }
 
 .card .wide{
-    height: 4vw;
+    height: 6em;
     width: fit-content;
     overflow: hidden;
     object-fit:fill;
