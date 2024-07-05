@@ -45,8 +45,8 @@ section{
     flex-direction: column;
     justify-content:center;
     align-items:flex-start;
-    padding-top: 5em;
-    padding-bottom: 5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 section h3{
